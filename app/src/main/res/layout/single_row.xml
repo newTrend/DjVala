@@ -7,37 +7,44 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Parminder Singh Sethi"
         android:gravity="center"
         android:id="@+id/nameText"
-        android:textColor="@color/black"/>
+        android:textSize="25dp"
+        android:textColor="#43A047"/>
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Parminder Singh Sethi"
         android:gravity="center"
         android:id="@+id/artistText"
-        android:textColor="@color/black"/>
+        android:textSize="20dp"
+        android:textColor="@color/textColor"/>
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Parminder Singh Sethi"
         android:gravity="center"
         android:id="@+id/noteText"
-        android:textColor="@color/black"/>
+        android:textSize="12dp"
+        android:textColor="@color/textColor"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#424242"
+        android:layout_marginTop="10dp"
+        />
     <TextView
         android:id="@+id/hidden"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="hidden value"
         android:visibility="gone" />
-
-
 
 </LinearLayout>

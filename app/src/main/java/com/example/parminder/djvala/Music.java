@@ -81,7 +81,7 @@ public class Music extends ActionBarActivity {
                                         final String url2 = "http://10.10.20.169:82/newTrend/djVala/deleteSong.php?id=" + b;
                                         new AlertDialog.Builder(Music.this)
                                                 .setTitle("Title")
-                                                .setMessage("Do you really want to whatever?")
+                                                .setMessage("Do you really want to Remove this from list ?")
                                                 .setIcon(android.R.drawable.ic_dialog_alert)
                                                 .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
 
