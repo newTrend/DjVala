@@ -72,7 +72,7 @@ public class Music extends ActionBarActivity {
 
                                     }
                                 }
-                                adapterObj = new mainHappening(getApplicationContext(), listName,listId,listArtist,listArtist);
+                                adapterObj = new mainHappening(getApplicationContext(), listName,listId,listArtist,listNote);
                                 l.setAdapter(adapterObj);
                                 l.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                                     @Override
